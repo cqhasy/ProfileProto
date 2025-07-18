@@ -18,12 +18,12 @@
 
 syntax = "proto3";
 
-package skywalking.v3;
+package ProfileProto;
 
 option java_multiple_files = true;
 option java_package = "org.apache.skywalking.apm.network.language.profile.v3";
 option csharp_namespace = "SkyWalking.NetworkProtocol.V3";
-option go_package = "proto/profile;profile";
+option go_package = "github.com/cqhasy/ProfileProto/profile;profile";
 
 import "common/Command.proto";
 
